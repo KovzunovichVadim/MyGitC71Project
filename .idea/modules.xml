@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Lessons1/Lessons1.iml" filepath="$PROJECT_DIR$/Lessons1/Lessons1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lessons2/Lessons2.iml" filepath="$PROJECT_DIR$/Lessons2/Lessons2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lessons3/Lessons3.iml" filepath="$PROJECT_DIR$/Lessons3/Lessons3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyGitC71Project.iml" filepath="$PROJECT_DIR$/MyGitC71Project.iml" />
+    </modules>
+  </component>
+</project>
