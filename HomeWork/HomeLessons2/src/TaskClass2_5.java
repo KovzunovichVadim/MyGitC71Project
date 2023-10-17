@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class TaskClass5 {
+public class TaskClass2_5 {
     public static void main(String[] args) {
         //Пользователь вводит число, распечатать все делители этого числа
 

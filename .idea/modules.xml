@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/HomeWork/HomeLessons1/HomeLessons1.iml" filepath="$PROJECT_DIR$/HomeWork/HomeLessons1/HomeLessons1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork/HomeLessons2/HomeLessons2.iml" filepath="$PROJECT_DIR$/HomeWork/HomeLessons2/HomeLessons2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork/homeLessons4/HomeLessons4.iml" filepath="$PROJECT_DIR$/HomeWork/homeLessons4/HomeLessons4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork/HomeWork.iml" filepath="$PROJECT_DIR$/HomeWork/HomeWork.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lessons1/Lessons1.iml" filepath="$PROJECT_DIR$/Lessons1/Lessons1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lessons2/Lessons2.iml" filepath="$PROJECT_DIR$/Lessons2/Lessons2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lessons3/Lessons3.iml" filepath="$PROJECT_DIR$/Lessons3/Lessons3.iml" />

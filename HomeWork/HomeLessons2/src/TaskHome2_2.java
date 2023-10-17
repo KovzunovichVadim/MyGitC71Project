@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class TaskHome2 {
+public class TaskHome2_2 {
     public static void main(String[] args) {
         System.out.println("Температура: ");
         Scanner scanner = new Scanner(System.in);
