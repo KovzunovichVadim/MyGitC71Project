@@ -4,8 +4,8 @@ public class TaskHome4_2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите длину массива: ");
-        int lengthArraysNumber = scanner.nextInt();
-        int[] arraysNumbers = new int[lengthArraysNumber];
+
+        int[] arraysNumbers = new int[scanner.nextInt()];
 
 
         for (int i = 0; i < arraysNumbers.length; i++) {
@@ -19,13 +19,13 @@ public class TaskHome4_2 {
         int max = arraysNumbers[0];
         int min = arraysNumbers[0];
 
-        for (int i = 1; i < arraysNumbers.length - 1; i++) {
+        for (int i = 1; i < arraysNumbers.length; i++) {
             if (max < arraysNumbers[i]) {
                 max = arraysNumbers[i];
             }
         }
 
-        for (int i = 1; i < arraysNumbers.length - 1; i++) {
+        for (int i = 1; i < arraysNumbers.length; i++) {
             if (min > arraysNumbers[i]) {
                 min = arraysNumbers[i];
             }

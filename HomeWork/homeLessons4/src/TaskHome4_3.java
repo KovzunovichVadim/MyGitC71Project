@@ -5,7 +5,6 @@ public class TaskHome4_3 {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите длину массива: ");
         int[] arraysNumbers = new int[scanner.nextInt()];
-        System.out.println(arraysNumbers.length);
         for (int i = 0; i < arraysNumbers.length; i++) {
             arraysNumbers[i] = (int) (Math.random() * 10);
             if (i == 0) {
@@ -19,22 +18,18 @@ public class TaskHome4_3 {
         int maxIndex = 0;
         int minIndex = 0;
 
-        for (int i = 1; i < arraysNumbers.length - 1; i++) {
+        for (int i = 1; i < arraysNumbers.length; i++) {
             if (max < arraysNumbers[i]) {
                 max = arraysNumbers[i];
                 maxIndex = i;
             }
         }
 
-        for (int i = 1; i < arraysNumbers.length - 1; i++) {
+        for (int i = 1; i < arraysNumbers.length; i++) {
             if (min > arraysNumbers[i]) {
                 min = arraysNumbers[i];
                 minIndex = i;
-                System.out.println(min);
-                System.out.println(minIndex);
             }
-            System.out.println(min);
-            System.out.println(minIndex);
         }
 
         System.out.println("");
