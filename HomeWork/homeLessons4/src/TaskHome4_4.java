@@ -12,5 +12,20 @@ public class TaskHome4_4 {
             }
             System.out.print(array[i] + " ");
         }
+
+        //Найти и вывести количество нулевых элементов. Если нулевых элементов нет - вывести сообщение, что их нет.
+        int count = 0;
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] == 0) {
+                count = count + 1;
+            }
+        }
+
+        System.out.println();
+        if (count == 0) {
+            System.out.println("Нулевых значении нет!!!");
+        } else {
+            System.out.println("Количество  нулевых значении: " + count);
+        }
     }
 }
