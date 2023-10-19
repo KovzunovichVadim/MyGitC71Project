@@ -5,11 +5,10 @@ public class TaskHome4_4 {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите длину массива: ");
         int[] array = new int[scanner.nextInt()];
+        System.out.print("Массив числа: ");
+
         for (int i = 0; i < array.length; i++) {
             array[i] = (int) (Math.random() * 10);
-            if (i == 0) {
-                System.out.print("Массив числа: ");
-            }
             System.out.print(array[i] + " ");
         }
 

@@ -10,8 +10,6 @@ public class TaskHome4_5 {
         int numberj;
 
         for (int i = 0; i < array.length; i++) {
-            if (i == 0) {
-            }
             array[i] = (int) (Math.random() * 10);
         }
 

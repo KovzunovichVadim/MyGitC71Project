@@ -13,20 +13,18 @@ public class TaskHome4_6 {
 
         System.out.println("Массив: "+ Arrays.toString(array));
 
-        int exam = 0;
-        int number = array[0];
+        boolean exam = false;
         for (int i = 1;i<array.length;i++){
-            if (number<array[i]){
-                number = array[i];
-            }else {
-                exam = exam +1;
+            if (!(array[i-1]<array[i])){
+                exam = true;
+                break;
             }
         }
 
-        if (exam == 0){
-            System.out.println("Последовательность возврастающая");
-        } else {
+        if (exam){
             System.out.println("Нет");
+        } else {
+            System.out.println("Последовательность возврастающая");
         }
     }
 }
