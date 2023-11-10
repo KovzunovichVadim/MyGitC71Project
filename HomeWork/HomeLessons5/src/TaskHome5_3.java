@@ -6,17 +6,15 @@ public class TaskHome5_3 {
         int m = 6;
         int[][] arrayA = new int[n][m];
         int number = arrayA[0][0];
-        int number2;
 
         for (int i = 0; i < arrayA.length; i++) {
             for (int j = 0; j < arrayA[i].length; j++) {
                 if (i % 2 == 0) {
                     arrayA[i][j] = number;
-                    number++;
                 } else {
                     arrayA[i][arrayA[i].length - 1 - j] = number;
-                    number++;
                 }
+                number++;
             }
         }
 
