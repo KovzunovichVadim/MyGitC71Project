@@ -1,4 +1,4 @@
-public class Main {
+public class Main8 {
     public static void main(String[] args) {
         /*Fox8 fox = new Fox8();
         fox.run();

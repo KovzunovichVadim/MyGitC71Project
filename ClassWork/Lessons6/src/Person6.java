@@ -1,7 +1,7 @@
-public class Person {
+public class Person6 {
     String fullName = "Vadim";
     int age = 35;
-    Dog dog;
+    Dog9 dog;
 
     void talk(String text) {
         System.out.println(fullName + " talk " + text + "...");
@@ -11,10 +11,10 @@ public class Person {
         System.out.println(fullName + " walk with his dog " + dog.dogName);
     }
 
-    public Person() {
+    public Person6() {
     }
 
-    public Person(String fullName, int age, Dog dog) {
+    public Person6(String fullName, int age, Dog9 dog) {
         this.fullName = fullName;
         this.age = age;
         this.dog = dog;

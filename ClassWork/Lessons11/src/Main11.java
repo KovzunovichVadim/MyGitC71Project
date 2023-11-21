@@ -1,7 +1,6 @@
 import java.util.Arrays;
-import java.util.StringJoiner;
 
-public class Main {
+public class Main11 {
     public static void main(String[] args) {
         String text = "My lovely c71 group";
         String text2 = "";  // != 0, "" пустой объект

@@ -10,10 +10,10 @@ public class TaskHome7_2 {
             field.setAccessible(true);
             color = (String) field.get(apple);
             System.out.println(color);
-            field.set(apple,(String)"Green");
+            field.set(apple, (String) "Green");
             color = (String) field.get(apple);
             System.out.println(color);
-        } catch (NoSuchFieldException | IllegalAccessException e){
+        } catch (NoSuchFieldException | IllegalAccessException e) {
             e.printStackTrace();
         }
 

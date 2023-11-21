@@ -1,7 +1,7 @@
 public class TaskClass6_2 {
     public static void main(String[] args) {
-        Person person1 = new Person();
-        Person person = new Person("Dima Bilan", 47, new Dog("Timoshka"));
+        Person6 person1 = new Person6();
+        Person6 person = new Person6("Dima Bilan", 47, new Dog9("Timoshka"));
         System.out.println(person.age);
         System.out.println(person.fullName);
         System.out.println(person.dog.dogName);

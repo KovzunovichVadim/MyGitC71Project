@@ -2,9 +2,9 @@ public class Person implements Cloneable {
     String name = "Vadim";
     int age = 35;
     int money = 2000;
-    Cat cat = new Cat();
+    Cat9 cat = new Cat9();
 
-    public Person(String name, int age, int money, Cat cat) {
+    public Person(String name, int age, int money, Cat9 cat) {
         this.name = name;
         this.age = age;
         this.money = money;
@@ -28,8 +28,8 @@ public class Person implements Cloneable {
 
     @Override
     protected Object clone() throws CloneNotSupportedException {
-        Person personClone = (Person) super.clone();
-        personClone.cat = (Cat) this.cat.clone();
+        Person6 personClone = (Person6) super.clone();
+        personClone.cat = (Cat9) this.cat.clone();
         return personClone;
     }
 }

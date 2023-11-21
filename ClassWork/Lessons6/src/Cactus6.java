@@ -1,11 +1,11 @@
-public class Cactus {// -> Объекты
+public class Cactus6 {// -> Объекты
     //состояние(характеристики - > поля, переменные
     String color;
     double weight = 10.2;
     double height = 1.5;
     String name = "Gowa";
 
-    public Cactus(String c, double w, double h){
+    public Cactus6(String c, double w, double h){
         this.color = c;     // this ссылка на самого себя
         this.weight = w;
         this.height = h;
