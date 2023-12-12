@@ -12,7 +12,7 @@ public class Cactus {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Cactus6 cactus = (Cactus6) o;
+        Cactus cactus = (Cactus) o;
         return cost == cactus.cost;
     }
 

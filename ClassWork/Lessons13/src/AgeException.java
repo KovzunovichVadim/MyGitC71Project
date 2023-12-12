@@ -1,4 +1,4 @@
-public class AgeException extends Exception{
+public class AgeException extends Exception {
     int age;
 
     public AgeException(int age) {

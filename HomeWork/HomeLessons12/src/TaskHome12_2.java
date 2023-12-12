@@ -13,9 +13,12 @@ public class TaskHome12_2 {
         Matcher matcherPhone = patternPhone.matcher(text);
 
         while (matcherDocument.find()) {
-            System.out.println("Document number: " + matcherDocument.group());
+            if (matcherDocument.matches()) {
+                System.out.println("Document number: " + matcherDocument.group());
+            } else {
+                System.out.println("Document not found");
+            }
         }
-
 
         while (matcherEmail.find()) {
             System.out.println("Email: " + matcherEmail.group());

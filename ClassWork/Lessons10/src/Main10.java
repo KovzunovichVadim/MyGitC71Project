@@ -1,7 +1,7 @@
-public class Main {
+public class Main10 {
     public static void main(String[] args) {
-        Cactus6 cactus = new Cactus6();
-        Cactus6 cactus1 = new Cactus6();
+        Cactus cactus = new Cactus();
+        Cactus cactus1 = new Cactus();
 
         // 1. toString преобразовать объект в строку
         System.out.println(cactus); // toString подразумевается по умолчанию

@@ -1,6 +1,6 @@
 public class CreditCard {
-    int accountNumber;
-    double sumOnAccount;
+    private int accountNumber;
+    private double sumOnAccount;
 
     public CreditCard(int accountNumber, double sumOnAccount) {
         this.accountNumber = accountNumber;

@@ -15,7 +15,7 @@ public class TaskHome11_4 {
             char[] arr = arrString[i].toCharArray();
             for (int j = 0; j < arr.length - 1; j++) {
                 for (int k = j + 1; k < arr.length; k++) {
-                    if (arr[j] == arr[k]) {
+                    if (arr[j] != arr[k]) {
                         words = true;
                     } else {
                         words = false;

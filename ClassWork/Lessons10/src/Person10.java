@@ -1,10 +1,14 @@
-public class Person implements Cloneable {
+public class Person10 implements Cloneable {
     String name = "Vadim";
     int age = 35;
     int money = 2000;
-    Cat9 cat = new Cat9();
+    Cat cat = new Cat();
 
-    public Person(String name, int age, int money, Cat9 cat) {
+    public Person10(){
+
+    }
+
+    public Person10(String name, int age, int money, Cat cat) {
         this.name = name;
         this.age = age;
         this.money = money;
@@ -28,8 +32,8 @@ public class Person implements Cloneable {
 
     @Override
     protected Object clone() throws CloneNotSupportedException {
-        Person6 personClone = (Person6) super.clone();
-        personClone.cat = (Cat9) this.cat.clone();
+        Person10 personClone = (Person10) super.clone();
+        personClone.cat = (Cat) this.cat.clone();
         return personClone;
     }
 }

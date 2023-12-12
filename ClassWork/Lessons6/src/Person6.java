@@ -1,7 +1,7 @@
 public class Person6 {
     String fullName = "Vadim";
     int age = 35;
-    Dog9 dog;
+    Dog dog;
 
     void talk(String text) {
         System.out.println(fullName + " talk " + text + "...");
@@ -14,7 +14,7 @@ public class Person6 {
     public Person6() {
     }
 
-    public Person6(String fullName, int age, Dog9 dog) {
+    public Person6(String fullName, int age, Dog dog) {
         this.fullName = fullName;
         this.age = age;
         this.dog = dog;

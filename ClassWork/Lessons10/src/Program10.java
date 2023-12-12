@@ -1,6 +1,6 @@
 public class Program10 {
     public static void main(String[] args) throws CloneNotSupportedException {
-        Person6 person = new Person6();
+        Person10 person = new Person10();
         System.out.println(person.toString());
         System.out.println(person.hashCode());
         System.out.println(person.toString());
